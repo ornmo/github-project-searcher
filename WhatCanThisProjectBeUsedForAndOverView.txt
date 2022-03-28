@@ -1,7 +1,10 @@
-This project is made of background images that expand when clicked on. 
+This project which uses the github API to fetch users, the USer can search for github users and the returned data will be displayed in a card providing some of the githubs users profile details along with their most recent 5 repositories. 
 
-It uses Flexbox, CSS transitions and JavaScript
+Error handling is included in this project and if a user profile isn't located the User is advised of this
+
+It uses Flexbox, CSS transitions and JavaScript, the github API and Axios
 
 This could be converted to be used in (for example) the following ways
 
-- 
+- profile links for personal portfolios to github
+- further expanded to include similar projects such as authors, musicians or any other project that might want to fetch further profile details (from a source alternate to github)
